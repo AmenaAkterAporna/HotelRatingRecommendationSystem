@@ -1,0 +1,130 @@
+body{
+    margin : 0;
+    padding :0;
+    font-family: Century Gothic;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(updateBack.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position : center;
+}
+
+.update .search-btn{
+    position: absolute;
+    padding: 4px;
+    margin-top: 9%;
+    margin-left: 43%;
+    font-size: 18px;
+    background-color: rgb(216, 172, 172);
+    cursor:pointer;
+    transition: 0.6s all;
+}
+.update .search-btn:hover{
+    background-color: rgb(113, 164, 214);
+    color:#fff;
+}
+.delete .search-btn{
+    position: absolute;
+    padding: 4px;
+    margin-top: 21%;
+    margin-left: 43%;
+    font-size: 18px;
+    background-color: rgb(216, 172, 172);
+    cursor:pointer;
+    transition: 0.6s all;
+}
+.delete .search-btn:hover{
+    background-color: rgb(113, 164, 214);
+    color:#fff;
+}
+h1{
+    position: relative;
+    text-align: center;
+    color:#fff;
+    margin-top: 10%;
+}
+.search-box1{
+    position: absolute;
+    top: 32%;
+    left: 42%;
+    transform: tranlate(-50%,-50%);
+    height: 50px;
+    padding: 10px;
+    margin-top: 0%;
+}
+.search-box1 input[type="text"]{
+    padding: 4px; 
+    border:none;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.search-box2{
+    position: absolute;
+    top: 32%;
+    left: 42%;
+    transform: tranlate(-50%,-50%);
+    height: 50px;
+    padding: 10px;
+    margin-top: 2.5%;
+}
+.search-box2 input[type="text"]{
+    padding: 4px; 
+    border:none;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.search-box3{
+    position: absolute;
+    top: 32%;
+    left: 42%;
+    transform: tranlate(-50%,-50%);
+    height: 50px;
+    padding: 10px;
+    margin-top: 5%;
+}
+.search-box3 input[type="text"]{
+    padding: 4px; 
+    border:none;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.search-box4{
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    transform: tranlate(-50%,-50%);
+    height: 50px;
+    padding: 10px;
+    margin-top: 2.5%;
+}
+.search-box4 input[type="text"]{
+    padding: 4px; 
+    border:none;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+ .search-box5{
+    position: absolute;
+    top: 61%;
+    left: 42%;
+    transform: tranlate(-50%,-50%);
+    height: 50px;
+    padding: 10px;
+    margin-top: 2.5%;
+}
+.search-box5 input[type="text"]{
+    padding: 4px; 
+    border:none;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}

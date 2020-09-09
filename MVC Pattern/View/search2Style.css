@@ -1,0 +1,76 @@
+body{
+    margin : 0;
+    padding :0;
+    font-family: Century Gothic;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)),url(searchBack.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	background-position : center;
+
+}
+.header1 {
+    width:100%;
+    height: 54px;
+    
+
+}
+.header1 .search{
+    float:right;
+}
+.header1 input[type="text"]{
+    padding: 5px;
+    margin-top: 12px;
+    border:none;
+    font-size: 15px;
+}
+.header1 .search .btn{
+    float:right;
+    padding: 5px;
+    margin-top: 12px;
+    margin-right: 15px;
+    font-size: 15px;
+    border:none;
+    background-color: #ddd;
+    cursor:pointer;
+    transition: 0.6s all;
+}
+.header1 .search .btn:hover{
+    background-color: rgb(113, 164, 214);
+    color:#fff;
+}
+.rating h1{
+    margin-top: 10%;
+    text-align: center;
+    color:#fff;
+}
+.search-box2{
+    position: absolute;
+    top: 42%;
+    left: 33%;
+    transform: tranlate(-50%,-50%);
+    height: 20px;
+    padding: 6px;
+}
+.search-box3{
+    position: absolute;
+    top: 42%;
+    left: 53%;
+    transform: tranlate(-50%,-50%);
+    border-width:initial;
+    padding: 6px;
+}
+.rating .search-btn{
+    position: absolute;
+    padding: .5%;
+    margin-top: 72px;
+    margin-left: 46%;
+    font-size: 18px;
+    background-color: #fff;
+    cursor:pointer;
+    transition: 0.6s all;
+}
+.rating .search-btn:hover{
+    background-color: rgb(113, 164, 214);
+    color:#fff;
+}

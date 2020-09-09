@@ -1,0 +1,56 @@
+.Radisson {
+    width: 100%;
+    padding: 72px 0px 72px 0px;
+    background-size: cover;
+    background-color:rgb(24, 18, 18);
+    clear: both;
+    float: left;
+
+}
+.Radisson .heading h2{
+font-size: 35px;
+line-height: 35px;
+margin-bottom:20px;
+letter-spacing:0.5px;
+text-align: center;
+color:#fff;
+}
+.Radisson .heading p{
+    width:70%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    color:#fff;
+}
+.Radisson .col-1{
+    width:26%;
+    float:left;
+    padding: 0 45px;
+    margin-top: 60px;
+}
+.Radisson .col-1 img{
+    max-width:100%;
+    display:block;
+    margin: 0 auto;
+}
+.Radisson .col-1 .text-box {
+    padding: 1%;
+    background-color:#f3f3f3;
+    width:99%;
+    text-align: center;
+}
+.Radisson .col-1 .text-box h4{
+    margin-bottom:7px;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 10px;
+    letter-spacing: 0.5px;
+}
+.Radisson .col-1 .text-box p{
+    color: #443030;
+    line-height: 23px;
+    text-align: center;
+    margin: 0 0 10px;
+    font-size: 14px;
+}
